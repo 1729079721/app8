@@ -25,11 +25,11 @@ public class main {
     opcion = sc.nextInt();
     switch (opcion) {
         case 1:
-            
+           salario = salario +(salario*0.25) ;
         case 2:
             
         case 3:
     }
-
+JOptionPane.showMessageDialog(null, "El salario es: "+salario);
     }
 }
